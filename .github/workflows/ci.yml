@@ -29,4 +29,4 @@ jobs:
           context: ./apps/user-service
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/haikelpro/user-service:v3
+          tags: ghcr.io/haikelpro/user-service:working
