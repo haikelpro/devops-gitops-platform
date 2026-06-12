@@ -27,5 +27,6 @@ jobs:
       - uses: docker/build-push-action@v6
         with:
           context: ./apps/user-service
+          platforms: linux/amd64
           push: true
           tags: ghcr.io/haikelpro/user-service:v1
