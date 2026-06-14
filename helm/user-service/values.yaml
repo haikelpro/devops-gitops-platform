@@ -1,12 +1,12 @@
 replicaCount: 2
 
 image:
-  repository: ghcr.io/haikelpro/user-service
-  tag: working
-  pullPolicy: Always
+  repository: user-service
+  tag: metrics
+  pullPolicy: Never
 
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
   targetPort: 8000
   nodePort: 30080
