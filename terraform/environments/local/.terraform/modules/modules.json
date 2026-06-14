@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"monitoring_namespace","Source":"../../modules/namespace","Dir":"../../modules/namespace"},{"Key":"monitoring_stack","Source":"../../modules/helm-release","Dir":"../../modules/helm-release"}]}
